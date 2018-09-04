@@ -10,4 +10,10 @@ public interface TopicService {
 
 	Topic getTopicById(Integer id);
 
+	void addTopic(Topic topic);
+	
+	List<Topic> updateTopic(Topic topic, Integer id);
+	
+	List<Topic> deleteTopic(Integer id);
+
 }
